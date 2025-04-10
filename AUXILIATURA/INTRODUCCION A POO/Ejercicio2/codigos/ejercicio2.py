@@ -1,4 +1,7 @@
-
+#2. Crea una clase Empleado con nombre y sueldo
+#  a) Agrega un método para calcular el sueldo anual
+#  b) Agrega un método para aplicar un aumento del 10%
+#  c) Crea dos empleados y muestra sus sueldos antes y después del aumento
 class Empleado:
     def __init__(self, nombre, sueldo):
         self.nombre = nombre
@@ -10,7 +13,6 @@ class Empleado:
     def aplicaraumento(self):
         self.sueldo *= 1.10
     
-
     def mostrardatos(self):
         print(f"Empleado: {self.nombre}")
         print(f"Sueldo mensual: ${self.sueldo:.2f}")
